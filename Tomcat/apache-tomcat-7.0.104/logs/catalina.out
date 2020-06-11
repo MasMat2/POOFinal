@@ -1,0 +1,93 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Nombre de la versión del servidor:   Apache Tomcat/7.0.104
+
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2020 19:31:18 UTC
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Número de versión de servidor:         7.0.104.0
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Versión de Systema Operativo:      10.15.4
+
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Arquitectura:          x86_64
+
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           13.0.2+8
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Vededor JVM:     Oracle Corporation
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/max/Documents/code/Java/Tomcat/apache-tomcat-7.0.104
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/max/Documents/code/Java/Tomcat/apache-tomcat-7.0.104
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/max/Documents/code/Java/Tomcat/apache-tomcat-7.0.104/conf/logging.properties
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/max/Documents/code/Java/Tomcat/apache-tomcat-7.0.104
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/max/Documents/code/Java/Tomcat/apache-tomcat-7.0.104
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/max/Documents/code/Java/Tomcat/apache-tomcat-7.0.104/temp
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/max/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+may. 23, 2020 12:26:11 A.M. org.apache.coyote.AbstractProtocol init
+INFO: Inicializando el manejador de protocolo ["http-bio-8080"]
+
+may. 23, 2020 12:26:11 A.M. org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1350 ms
+may. 23, 2020 12:26:12 A.M. org.apache.catalina.core.StandardService startInternal
+INFO: Arrancando servicio [Catalina]
+may. 23, 2020 12:26:12 A.M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.104
+may. 23, 2020 12:26:12 A.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-7.0.104/webapps/docs] de la aplicación web
+may. 23, 2020 12:26:13 A.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-7.0.104/webapps/docs] has finished in [1.341] ms
+may. 23, 2020 12:26:13 A.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-7.0.104/webapps/manager] de la aplicación web
+may. 23, 2020 12:26:14 A.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-7.0.104/webapps/manager] has finished in [744] ms
+may. 23, 2020 12:26:14 A.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-7.0.104/webapps/examples] de la aplicación web
+may. 23, 2020 12:26:15 A.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-7.0.104/webapps/examples] has finished in [1.414] ms
+may. 23, 2020 12:26:15 A.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-7.0.104/webapps/ROOT] de la aplicación web
+may. 23, 2020 12:26:15 A.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-7.0.104/webapps/ROOT] has finished in [90] ms
+may. 23, 2020 12:26:15 A.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-7.0.104/webapps/host-manager] de la aplicación web
+may. 23, 2020 12:26:15 A.M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-7.0.104/webapps/host-manager] has finished in [115] ms
+may. 23, 2020 12:26:15 A.M. org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+may. 23, 2020 12:26:15 A.M. org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3940 ms
+may. 23, 2020 12:26:43 A.M. org.apache.catalina.core.StandardServer await
+INFO: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+may. 23, 2020 12:26:43 A.M. org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+may. 23, 2020 12:26:43 A.M. org.apache.catalina.core.StandardService stopInternal
+INFO: Parando servicio [Catalina]
+may. 23, 2020 12:26:43 A.M. org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+may. 23, 2020 12:26:43 A.M. org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]

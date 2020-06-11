@@ -1,0 +1,292 @@
+31-May-2020 14:58:32.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor:   Apache Tomcat/9.0.35
+
+31-May-2020 14:58:32.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+31-May-2020 14:58:32.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:         9.0.35.0
+31-May-2020 14:58:32.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-May-2020 14:58:32.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.15.4
+
+31-May-2020 14:58:32.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:          x86_64
+
+31-May-2020 14:58:32.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
+31-May-2020 14:58:32.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+31-May-2020 14:58:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:     Oracle Corporation
+31-May-2020 14:58:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 14:58:32.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 14:58:32.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-May-2020 14:58:32.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-May-2020 14:58:32.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-May-2020 14:58:32.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/logging.properties
+31-May-2020 14:58:32.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-May-2020 14:58:32.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-May-2020 14:58:32.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-May-2020 14:58:32.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-May-2020 14:58:32.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-May-2020 14:58:32.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 14:58:32.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 14:58:32.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/temp
+31-May-2020 14:58:32.568 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/max/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-May-2020 14:58:37.467 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8282"]
+
+31-May-2020 14:58:38.032 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [7.646] milliseconds
+31-May-2020 14:58:38.422 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+31-May-2020 14:58:38.423 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+31-May-2020 14:58:38.772 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml]
+31-May-2020 14:58:39.029 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+31-May-2020 14:58:44.295 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [350] milliseconds.
+31-May-2020 14:58:44.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml] has finished in [6.042] ms
+31-May-2020 14:58:44.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml]
+31-May-2020 14:58:44.882 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicaion3] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml] has been ignored
+31-May-2020 14:58:45.006 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+31-May-2020 14:58:50.702 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2020 14:58:50.740 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml] has finished in [5.921] ms
+31-May-2020 14:58:50.742 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml]
+31-May-2020 14:58:50.765 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml] has been ignored
+31-May-2020 14:58:50.788 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+31-May-2020 14:58:51.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml] has finished in [750] ms
+31-May-2020 14:58:51.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml]
+31-May-2020 14:58:51.538 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication4] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml] has been ignored
+31-May-2020 14:58:51.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml] has finished in [445] ms
+31-May-2020 14:58:51.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/docs] de la aplicación web
+31-May-2020 14:58:52.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/docs] has finished in [86] ms
+31-May-2020 14:58:52.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/manager] de la aplicación web
+31-May-2020 14:58:52.866 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/manager] has finished in [838] ms
+31-May-2020 14:58:52.867 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/examples] de la aplicación web
+31-May-2020 14:58:56.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/examples] has finished in [3.197] ms
+31-May-2020 14:58:56.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/ROOT] de la aplicación web
+31-May-2020 14:58:56.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/ROOT] has finished in [112] ms
+31-May-2020 14:58:56.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/host-manager] de la aplicación web
+31-May-2020 14:58:56.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/host-manager] has finished in [140] ms
+31-May-2020 14:58:56.410 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8282"]
+31-May-2020 14:58:56.626 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18.587] milliseconds
+31-May-2020 14:59:05.031 INFO [http-nio-8282-exec-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/WebApplicaion3]
+31-May-2020 14:59:05.863 INFO [http-nio-8282-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml]
+31-May-2020 14:59:05.871 WARNING [http-nio-8282-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicaion3] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml] has been ignored
+31-May-2020 14:59:05.906 WARNING [http-nio-8282-exec-5] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+31-May-2020 14:59:08.275 INFO [http-nio-8282-exec-5] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2020 14:59:08.330 INFO [http-nio-8282-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml] has finished in [2.466] ms
+31-May-2020 14:59:08.562 INFO [http-nio-8282-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplicaion3]] after start() had already been called. The second call will be ignored.
+31-May-2020 15:05:25.107 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+31-May-2020 15:05:25.127 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8282"]
+31-May-2020 15:05:25.141 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+31-May-2020 15:05:25.312 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [WebApplicaion3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2020 15:05:25.314 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebApplicaion3] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@13.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@13.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+31-May-2020 15:05:25.363 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8282"]
+31-May-2020 15:05:25.370 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8282"]
+31-May-2020 15:11:35.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor:   Apache Tomcat/9.0.35
+
+31-May-2020 15:11:35.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+31-May-2020 15:11:35.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:         9.0.35.0
+31-May-2020 15:11:35.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-May-2020 15:11:35.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.15.4
+
+31-May-2020 15:11:35.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:          x86_64
+
+31-May-2020 15:11:35.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
+31-May-2020 15:11:35.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+31-May-2020 15:11:35.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:     Oracle Corporation
+31-May-2020 15:11:35.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 15:11:35.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 15:11:35.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-May-2020 15:11:35.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-May-2020 15:11:35.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-May-2020 15:11:35.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/logging.properties
+31-May-2020 15:11:35.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-May-2020 15:11:35.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-May-2020 15:11:35.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-May-2020 15:11:35.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-May-2020 15:11:35.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-May-2020 15:11:35.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 15:11:35.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 15:11:35.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/temp
+31-May-2020 15:11:35.257 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/max/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-May-2020 15:11:36.632 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8282"]
+
+31-May-2020 15:11:36.747 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2.270] milliseconds
+31-May-2020 15:11:36.876 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+31-May-2020 15:11:36.876 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+31-May-2020 15:11:36.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml]
+31-May-2020 15:11:36.941 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+31-May-2020 15:11:37.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml] has finished in [898] ms
+31-May-2020 15:11:37.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml]
+31-May-2020 15:11:37.804 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicaion3] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml] has been ignored
+31-May-2020 15:11:37.830 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+31-May-2020 15:11:38.811 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2020 15:11:38.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml] has finished in [1.056] ms
+31-May-2020 15:11:38.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml]
+31-May-2020 15:11:38.861 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml] has been ignored
+31-May-2020 15:11:38.867 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+31-May-2020 15:11:38.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml] has finished in [85] ms
+31-May-2020 15:11:38.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml]
+31-May-2020 15:11:38.947 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication4] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml] has been ignored
+31-May-2020 15:11:39.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml] has finished in [65] ms
+31-May-2020 15:11:39.017 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/docs] de la aplicación web
+31-May-2020 15:11:39.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/docs] has finished in [58] ms
+31-May-2020 15:11:39.075 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/manager] de la aplicación web
+31-May-2020 15:11:39.177 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/manager] has finished in [102] ms
+31-May-2020 15:11:39.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/examples] de la aplicación web
+31-May-2020 15:11:39.858 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/examples] has finished in [679] ms
+31-May-2020 15:11:39.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/ROOT] de la aplicación web
+31-May-2020 15:11:39.917 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/ROOT] has finished in [57] ms
+31-May-2020 15:11:39.917 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/host-manager] de la aplicación web
+31-May-2020 15:11:39.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/host-manager] has finished in [65] ms
+31-May-2020 15:11:39.994 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8282"]
+31-May-2020 15:11:40.019 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3.271] milliseconds
+31-May-2020 16:13:29.280 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+31-May-2020 16:13:29.375 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8282"]
+31-May-2020 16:13:29.435 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+31-May-2020 16:13:30.045 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [WebApplicaion3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2020 16:13:30.053 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebApplicaion3] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@13.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@13.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+31-May-2020 16:13:30.179 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8282"]
+31-May-2020 16:13:30.190 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8282"]
+31-May-2020 17:38:33.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor:   Apache Tomcat/9.0.35
+
+31-May-2020 17:38:33.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+31-May-2020 17:38:33.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:         9.0.35.0
+31-May-2020 17:38:33.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-May-2020 17:38:33.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.15.4
+
+31-May-2020 17:38:33.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:          x86_64
+
+31-May-2020 17:38:33.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
+31-May-2020 17:38:33.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+31-May-2020 17:38:33.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:     Oracle Corporation
+31-May-2020 17:38:33.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 17:38:33.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 17:38:33.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-May-2020 17:38:33.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-May-2020 17:38:33.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-May-2020 17:38:33.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/logging.properties
+31-May-2020 17:38:33.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-May-2020 17:38:33.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-May-2020 17:38:33.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-May-2020 17:38:33.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-May-2020 17:38:33.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-May-2020 17:38:33.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 17:38:33.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 17:38:33.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/temp
+31-May-2020 17:38:33.440 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/max/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-May-2020 17:38:34.550 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8282"]
+
+31-May-2020 17:38:34.652 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2.175] milliseconds
+31-May-2020 17:38:34.796 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+31-May-2020 17:38:34.797 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+31-May-2020 17:38:34.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml]
+31-May-2020 17:38:34.922 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+31-May-2020 17:38:35.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml] has finished in [968] ms
+31-May-2020 17:38:35.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml]
+31-May-2020 17:38:35.802 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicaion3] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml] has been ignored
+31-May-2020 17:38:35.809 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+31-May-2020 17:38:36.805 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2020 17:38:36.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml] has finished in [1.059] ms
+31-May-2020 17:38:36.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml]
+31-May-2020 17:38:36.865 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml] has been ignored
+31-May-2020 17:38:36.872 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+31-May-2020 17:38:36.945 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml] has finished in [85] ms
+31-May-2020 17:38:36.951 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml]
+31-May-2020 17:38:36.955 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication4] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml] has been ignored
+31-May-2020 17:38:37.036 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml] has finished in [86] ms
+31-May-2020 17:38:37.040 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/docs] de la aplicación web
+31-May-2020 17:38:37.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/docs] has finished in [73] ms
+31-May-2020 17:38:37.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/manager] de la aplicación web
+31-May-2020 17:38:37.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/manager] has finished in [107] ms
+31-May-2020 17:38:37.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/examples] de la aplicación web
+31-May-2020 17:38:37.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/examples] has finished in [641] ms
+31-May-2020 17:38:37.863 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/ROOT] de la aplicación web
+31-May-2020 17:38:37.922 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/ROOT] has finished in [59] ms
+31-May-2020 17:38:37.923 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/host-manager] de la aplicación web
+31-May-2020 17:38:37.995 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/host-manager] has finished in [72] ms
+31-May-2020 17:38:38.015 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8282"]
+31-May-2020 17:38:38.051 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3.395] milliseconds
+31-May-2020 17:51:15.013 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+31-May-2020 17:51:15.035 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8282"]
+31-May-2020 17:51:15.059 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+31-May-2020 17:51:15.410 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [WebApplicaion3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+31-May-2020 17:51:15.412 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebApplicaion3] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@13.0.2/java.lang.Object.wait(Native Method)
+ java.base@13.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+ java.base@13.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@13.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@13.0.2/java.lang.Thread.run(Thread.java:830)
+31-May-2020 17:51:15.553 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8282"]
+31-May-2020 17:51:15.567 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8282"]
+31-May-2020 17:51:15.607 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1038)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:117)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:830)
+31-May-2020 23:14:51.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor:   Apache Tomcat/9.0.35
+
+31-May-2020 23:14:51.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+31-May-2020 23:14:51.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:         9.0.35.0
+31-May-2020 23:14:51.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-May-2020 23:14:51.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.15.4
+
+31-May-2020 23:14:51.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:          x86_64
+
+31-May-2020 23:14:51.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
+31-May-2020 23:14:51.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+31-May-2020 23:14:51.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:     Oracle Corporation
+31-May-2020 23:14:51.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 23:14:51.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 23:14:51.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-May-2020 23:14:51.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-May-2020 23:14:51.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-May-2020 23:14:51.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/logging.properties
+31-May-2020 23:14:51.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-May-2020 23:14:51.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-May-2020 23:14:51.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-May-2020 23:14:51.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+31-May-2020 23:14:51.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-May-2020 23:14:51.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 23:14:51.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35
+31-May-2020 23:14:51.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/temp
+31-May-2020 23:14:51.251 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/max/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-May-2020 23:14:52.357 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8282"]
+
+31-May-2020 23:14:52.508 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2.746] milliseconds
+31-May-2020 23:14:52.632 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+31-May-2020 23:14:52.633 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+31-May-2020 23:14:52.657 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml]
+31-May-2020 23:14:52.721 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+31-May-2020 23:14:53.428 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/mavenproject1.xml] has finished in [771] ms
+31-May-2020 23:14:53.429 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml]
+31-May-2020 23:14:53.431 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicaion3] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml] has been ignored
+31-May-2020 23:14:53.437 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+31-May-2020 23:14:54.364 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+31-May-2020 23:14:54.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplicaion3.xml] has finished in [968] ms
+31-May-2020 23:14:54.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml]
+31-May-2020 23:14:54.401 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml] has been ignored
+31-May-2020 23:14:54.409 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+31-May-2020 23:14:54.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication1.xml] has finished in [76] ms
+31-May-2020 23:14:54.474 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml]
+31-May-2020 23:14:54.477 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication4] in deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml] has been ignored
+31-May-2020 23:14:54.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/conf/Catalina/localhost/WebApplication4.xml] has finished in [76] ms
+31-May-2020 23:14:54.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/docs] de la aplicación web
+31-May-2020 23:14:54.603 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/docs] has finished in [52] ms
+31-May-2020 23:14:54.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/manager] de la aplicación web
+31-May-2020 23:14:54.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/manager] has finished in [89] ms
+31-May-2020 23:14:54.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/examples] de la aplicación web
+31-May-2020 23:14:55.330 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/examples] has finished in [636] ms
+31-May-2020 23:14:55.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/ROOT] de la aplicación web
+31-May-2020 23:14:55.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/ROOT] has finished in [48] ms
+31-May-2020 23:14:55.381 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/host-manager] de la aplicación web
+31-May-2020 23:14:55.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/max/Documents/Code/Java/Tomcat/apache-tomcat-9.0.35/webapps/host-manager] has finished in [69] ms
+31-May-2020 23:14:55.460 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8282"]
+31-May-2020 23:14:55.482 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2.972] milliseconds
